@@ -29,11 +29,11 @@ Looking at summary statistics of June and December temperatures , we have lower 
 
 Let’s have a look below image.  
 
-![june_temp_prcp_summary](https://user-images.githubusercontent.com/107717882/184425544-a47caa35-a023-4aaf-92c9-fcda26aee5ae.png)![dec_temp_prcp_summary](https://user-images.githubusercontent.com/107717882/184425562-93d88f14-79a2-4d99-8f57-1cc8b409afa5.png)
+![june_temp_prcp_summary](https://user-images.githubusercontent.com/107717882/184429636-e96f0bce-9c1f-4690-a72b-80f415a7df07.png)![dec_temp_prcp_summary](https://user-images.githubusercontent.com/107717882/184429660-c611d1bf-0a9b-40fe-9b5a-53d3aabc62a4.png)
 
 We can get this result by adding __’Precipitation’__ column to our June DataFrmes and using __june_df.describ()__ . The query is below. Same query we can use for December with specifies months, list and DataFrame. 
 
-![june_query1](https://user-images.githubusercontent.com/107717882/184424810-7c533759-b195-4612-8eef-2a889edf0ec7.png)
+![june_query1](https://user-images.githubusercontent.com/107717882/184429702-9901224a-97ed-41cd-8d1a-7fa229b7408f.png)
 
 Now, we can say that precipitation data of both June and December also support surf and ice-cream business. 75th percentile of June precipitation is __0.12__ and that is light rain. December has little more 75th percentile , __0.15__ but it can be considered as light rain. Clearly we have more than half of the days of no rain or very light rain, good for our business. 
 
@@ -41,24 +41,34 @@ Now, we can say that precipitation data of both June and December also support s
 
 Here is the query that displays average, minimum and maximum temperatures for June year wise. We can use same query for December by changing month. 
 
-![june_query2](https://user-images.githubusercontent.com/107717882/184425746-25a63b7a-925f-4f58-bdd0-80701542c1c3.png)
+![june_query2](https://user-images.githubusercontent.com/107717882/184429885-cbeada9b-7cb5-46bf-84d2-898aa4dc534b.png)
 
 Here is the query that displays average, minimum and maximum precipitation for June. The same query we can use for December DataFrame. This observation can give more insight for business.
 
-![june_query3](https://user-images.githubusercontent.com/107717882/184425791-c6d4ce2d-7235-442a-89ba-40815b3d4569.png)
+![june_query3](https://user-images.githubusercontent.com/107717882/184429919-5de428c5-f9a1-4021-82c0-68ecc6998308.png)
 
 Followings are results for June temperatures and precipitations year wise.
 
-![june_temps_yearwise](https://user-images.githubusercontent.com/107717882/184426563-27da0c02-dcd2-44fc-9af6-2d135096a2f1.png)     ![june_prcps_yearwise](https://user-images.githubusercontent.com/107717882/184426593-a2c598cf-4f88-46b4-b8f4-5e802eef26fa.png)
+![june_temps_yearwise](https://user-images.githubusercontent.com/107717882/184429974-bd6ccd89-3ef7-4f83-b2bb-f50c8d90ebc6.png)![june_prcps_yearwise](https://user-images.githubusercontent.com/107717882/184430028-545b2baa-aed1-4974-b396-05a574995d95.png)
 
 Following are results for December temperatures and precipitations year wise.
 
-![dec_temps_yearwise](https://user-images.githubusercontent.com/107717882/184426645-3c74a8d9-e21f-4ef6-a348-4311871f2e80.png)![dec_prcps_yearwise](https://user-images.githubusercontent.com/107717882/184426657-b71e4aae-e5aa-4902-8a70-55b5484bc29a.png)
+![dec_temps_yearwise](https://user-images.githubusercontent.com/107717882/184430074-16b53636-2c2d-4fee-a9f7-921c2b1980ba.png)![dec_prcps_yearwise](https://user-images.githubusercontent.com/107717882/184430091-088770af-109c-4e76-bee6-cc31f7120783.png)
 
 ###  __Minimum, Average, maximum Temperatures and Precipitations Station Wise__
 
 The following query displays minimum, average and maximum temperatures for December , station wise. This result can help us to decide on which stations are better for business. 
 
+![dec_query1](https://user-images.githubusercontent.com/107717882/184430141-8dd3a39d-baf8-47a5-a645-02e672857187.png)
 
+![dec_query2](https://user-images.githubusercontent.com/107717882/184430163-55675d00-182c-4c70-9d61-ebf470f40bdd.png)
 
-The following query displays minimum, average and maximum precipitation for December , station wise.
+![dec_query3](https://user-images.githubusercontent.com/107717882/184430173-b46a2cbb-cccf-4363-b4fc-9da5cc156f7e.png)
+
+The following query displays minimum, average and maximum precipitation for December; station wise.
+
+![station_dec_temps](https://user-images.githubusercontent.com/107717882/184430226-a771a629-3ab3-4a51-a4d8-db1242d99a8f.png)![station_dec_prcps](https://user-images.githubusercontent.com/107717882/184430243-c0c279f7-6d97-4af4-904e-8c15df329c43.png)
+
+The following query displays minimum, average and maximum precipitation for June; station wise.
+
+![station_june_temps](https://user-images.githubusercontent.com/107717882/184430297-e42e0d70-a40d-4830-a785-1041657751ae.png)![station_june_prcps](https://user-images.githubusercontent.com/107717882/184430315-c095b550-8315-4d38-b6f6-80e86223a61b.png)
