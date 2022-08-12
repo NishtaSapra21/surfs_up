@@ -27,7 +27,7 @@ Looking at summary statistics of June and December temperatures , we have lower 
 
 ###  __Temperatures and Precipitation Together__ 
 
-Let’s have a look below image.  
+Let’s have a look below images.  
 
 ![june_temp_prcp_summary](https://user-images.githubusercontent.com/107717882/184429636-e96f0bce-9c1f-4690-a72b-80f415a7df07.png)![dec_temp_prcp_summary](https://user-images.githubusercontent.com/107717882/184429660-c611d1bf-0a9b-40fe-9b5a-53d3aabc62a4.png)
 
