@@ -2,7 +2,7 @@
 
 ## Overview
 
-This analysis reports temperature trends of month of June and December in Oahu, in order to determine if surf and ice-cream shop business is sustainable year-around or not using Python, Pandas functions and methods and SQLAlchemy.
+This analysis reports temperature trends for month of June and December in Oahu, in order to determine if surf and ice-cream shop business is sustainable year-around or not using Python, Pandas functions and methods and SQLAlchemy.
 
 ## Results
 
@@ -13,7 +13,7 @@ After comparing two figures below of __June Temps__ and __December Temps__ ; fol
   
 * __Standard Deviation__ in both observations of temperatures for June and December are  __3.257417__ , __3.745920__  respectively. These deviations are lower than       mean so data clustered around mean. Let’s consider mean of June temperatures i.e around 75 that means most of the temperatures are around 75 degree as standard         deviation is much lower. You can see same for December, temperatures are clustered around mean value 71. There’s no much more difference but yes, June is better. 
 
-* Considering range __(64(min temp) to 85(max temp))__ and __50th percentile__ which is _75__ for June temperatures, it is obvious that  50% of temperatures are fall     into half quartile, below 75 degree. So half of the temperatures are obviously above the 75 degree. Assuming that half of the days in June are having temperatures     above 75, it’s a good to go sign for surf and ice cream shop.  
+* Considering range __(64(min temp) to 85(max temp))__ and __50th percentile__ which is __75__ for June temperatures, it is obvious that  50% of temperatures are fall     into half quartile, below 75 degree. So half of the temperatures are obviously above the 75 degree. Assuming that half of the days in June are having temperatures     above 75, it’s a good to go sign for surf and ice cream shop.  
 
   Let’s look at December range which is __from 56 to 83__ and __50th percentile__ is __71__.  It obvious that 50% of temperatures are below 71. December also looks       good for surfing and having ice creams. 
   
